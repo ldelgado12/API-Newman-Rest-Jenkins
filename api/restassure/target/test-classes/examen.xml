@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Localhost" verbose="1" >
+    <parameter name="baseUrl" value="https://api-coffee-testing.herokuapp.com/"></parameter>
+    <test name="Regression" >
+        <classes>
+            <class name="sameName" />
+            <class name="statusTest" />
+        </classes>
+    </test>
+</suite>
